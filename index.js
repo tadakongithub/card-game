@@ -46,7 +46,9 @@ let winner;
                 card.firstChild.src = 'img/cards/' + pickedSingle + '.jpg';
 
                 //put the picked card into array
-                pickedArray.push(pickedSingle);
+                if(pickedArray[0] !== pickedSingle){
+                    pickedArray.push(pickedSingle);
+                }
             }
 
             //checking if the current player has clicked two cards
