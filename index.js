@@ -83,7 +83,7 @@ let winner;
                         //emptying current array
                         pickedArray.length = 0;
 
-                        if((score1.length + score2.length) === 2){
+                        if((score1.length + score2.length) === 52){
                             document.querySelector('.allCards').style.display = 'none';
                             document.querySelector('.switchPlayer').style.display = 'none';
                             document.querySelector('.winner').style.display = 'block';
